@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy &ndash; Twitch VOD Uploader</title>
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--muted:#555;--link:#0b57d0}
+@media (prefers-color-scheme:dark){:root{--bg:#161616;--fg:#eee;--muted:#aaa;--link:#8ab4f8}}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0}
+main{max-width:42rem;margin:0 auto;padding:2.5rem 1.25rem}
+h1{font-size:1.8rem;margin:0 0 .5rem}h2{font-size:1.15rem;margin-top:2rem}
+a{color:var(--link)}.muted{color:var(--muted);font-size:.9rem}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<p><a href="index.html">&larr; Twitch VOD Uploader</a></p>
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: November 15, 2026</p>
+
+<p>Twitch VOD Uploader is a personal tool, operated by SuperficialCake, that uploads
+the channel owner&rsquo;s own Twitch broadcasts to the channel owner&rsquo;s
+own YouTube channel.</p>
+
+<h2>Use of YouTube API Services</h2>
+<p>This application uses YouTube API Services. By using it you agree to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google&rsquo;s handling of
+data is described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+
+<h2>What the application accesses</h2>
+<p>With the Google account owner&rsquo;s consent, it requests only the
+<code>https://www.googleapis.com/auth/youtube.upload</code> permission, which lets it upload
+videos to the authorised YouTube channel. It does not read the channel&rsquo;s videos, comments,
+subscribers, or analytics, and it does not access any other Google data.</p>
+
+<h2>What it stores</h2>
+<p>On the computer where it runs, the application stores (1) an authorisation token so it can
+keep uploading without a new login, and (2) a list of Twitch video IDs it has already processed.
+It does not store YouTube video data. Downloaded video files are deleted after upload unless
+the operator chooses to keep them. No data is shared with third parties, and there are no
+advertisements, analytics, or cookies.</p>
+
+<h2>Revoking access and deleting data</h2>
+<p>Access can be revoked at any time on the
+<a href="https://security.google.com/settings/security/permissions">Google security settings page</a>,
+or by running the tool with its <code>--revoke</code> option, which revokes the token and deletes
+it. Stored data will be deleted within 7 days of a request. Deleting data held by this
+application does not remove videos from YouTube; videos are removed through YouTube Studio.</p>
+
+<h2>Contact</h2>
+<p>Questions or complaints about these practices: <a href="mailto:contact@superficialcake.dev">contact@superficialcake.dev</a>.</p>
+
+<footer><p><a href="index.html">Home</a></p></footer>
+</main>
+</body>
+</html>
