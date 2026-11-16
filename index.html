@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twitch VOD Uploader</title>
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--muted:#555;--link:#0b57d0}
+@media (prefers-color-scheme:dark){:root{--bg:#161616;--fg:#eee;--muted:#aaa;--link:#8ab4f8}}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0}
+main{max-width:42rem;margin:0 auto;padding:2.5rem 1.25rem}
+h1{font-size:1.8rem;margin:0 0 .5rem}h2{font-size:1.15rem;margin-top:2rem}
+a{color:var(--link)}.muted{color:var(--muted);font-size:.9rem}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>Twitch VOD Uploader</h1>
+<p class="muted">A personal tool for archiving Twitch broadcasts to YouTube.</p>
+
+<h2>What it does</h2>
+<p>Twitch VOD Uploader is a small program run by SuperficialCake for personal use. When a Twitch
+broadcast on jezzabear ends, it downloads the saved broadcast (VOD) from Twitch and
+uploads it to the YouTube channel of the person who authorised it. It runs on the owner&rsquo;s
+own computer or server and is not a public service. There are no other users, accounts,
+ads, or tracking.</p>
+
+<h2>How it uses YouTube</h2>
+<p>This application uses YouTube API Services. It requests a single permission,
+<code>youtube.upload</code>, which allows it to upload videos to the authorised
+YouTube channel. It does not read the channel&rsquo;s existing videos, comments, subscribers,
+or analytics. The channel owner chooses the privacy setting for uploads and can revoke access
+at any time.</p>
+<p>By using this tool you agree to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+
+<footer>
+<p><a href="privacy.html">Privacy Policy</a> &middot; Contact: <a href="mailto:contact@superficialcake.dev">contact@superficialcake.dev</a></p>
+</footer>
+</main>
+</body>
+</html>  
